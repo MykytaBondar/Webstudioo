@@ -17,31 +17,34 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Ubuntu:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
+        <div class="header-wrapper">
         <nav class="site-nav">
             <a class="logo" href="./index.html"><span class="blue">Web</span>Studio</a>
             <ul class="site-list">
-                <li><a class="site-link" href="./index.html">Студія</a>
+                <li class="site-item"><a class="site-link" href="./index.html">Студія</a>
                 </li>
-                <li><a class="site-link" href="./portfolio.html">Портфоліо</a>
+                <li class="site-item"><a class="site-link" href="./portfolio.html">Портфоліо</a>
                 </li>
-                <li><a class="site-link" href="#">Контакти</a>
+                <li class="site-item"><a class="site-link" href="#">Контакти</a>
                 </li>
             </ul>
         </nav>
         <ul class="contacts-list">
-            <li>
+            <li class="contacts-item">
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="contacts-item">
                 <a href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+    </div>
     </header>
-     <main class="main">
+     <main class="main container">
         <section class="post">
             <h1 class="post-title">Ефективні рішення для вашого</h1>
             <button class="post-button" type="button">Замовити послугу</button>
@@ -84,27 +87,27 @@
                     <li class="team-card">
                     <img src=img/img.7.jpg alt="" class="card">
                 <h3 class="teamName">Ігор Дем'яненко</h3>
-                <p>Product Designer</p>
+                <p class="teameate's-work">Product Designer</p>
                     </li>
                 <li class="team-card">
                 <img src=img/img.5.jpg alt="" class="card">
-                <h3>Ольга Рєпіна</h3>
-                <p>Frontend Developer</p>
+                <h3 class="teamName">Ольга Рєпіна</h3>
+                <p class="teameate's-work">Frontend Developer</p>
             </li>
                 <li class="team-card">
                 <img src=img/img.3.jpg alt="" class="card">
-                <h3>Микола Тарасов</h3>
-                <p>Marketing</p>
+                <h3 class="teamName">Микола Тарасов</h3>
+                <p class="teameate's-work">Marketing</p>
             </li>
             <li class="team-card">
                 <img src=img/img.1.jpg alt="" class="card">
-                <h3>Михайло Єрмаков</h3>
-                <p>UI Designer</p>
+                <h3 class="teamName">Михайло Єрмаков</h3>
+                <p class="teameate's-work">UI Designer</p>
             </li>
             </ul>
         </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer container">
         <div>
             <a href="#" class="footer-logo"><span class="blue">Web</span>Studio</a>
             <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
